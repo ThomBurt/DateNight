@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/candles-at-dusk.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+header {
+    width: 100%;
+    margin: 10px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul {
+    list-style: none;
+    text-align: right;
+    margin-right: 50px;
+}
+
+header nav ul li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    display: block;
+    text-align: center;
+}
+
+header nav ul li a:hover {
+    font-size: 20px;
+    text-decoration: underline;
+    color: #f09a68;
+}
+
+.container-section {
+    margin: 60px;
+}
+
+
+.slogan-div {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.slogan {
+    margin: 10px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 60px;
+    font-style: italic;
+    text-shadow: 1px 2px #00313f;
+}
+
+.slogan2 {
+    font-size: 50px;
+    color: white;
+    font-style: italic;
+    text-shadow: 1px 2px #00313f;
+}
+
+.btn-div {
+    text-align: center;
+
+}
+
+.download-btn {
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 25px;
+    color: white;
+    background-image: linear-gradient(to top left, #05465d, #79a3ba);
+    cursor: pointer;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    border: none;
+    
+}
+.download-btn:hover {
+    transform: scale(1.1); 
+    transition: all .2s ease-in-out; 
+}
