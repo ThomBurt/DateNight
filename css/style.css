@@ -119,12 +119,17 @@ header nav ul li a:hover {
 }
 
 
+footer {
+        position: fixed;
+        bottom: 0;
+        color: white;
+    }
 
+}
 
 
 
 /* MEDIA QUERIES */
-
 @media screen and (max-width: 980px) {
     header h1 {
         font-size: 50px;
@@ -186,7 +191,29 @@ header nav ul li a:hover {
       .slogan2 {
           font-size: 40px;
       }
-  }
+    }
+
+    @media screen and (max-width: 505px) {
+        header nav ul {
+            margin: 0;
+            width: 100vw;
+            text-align: center;
+            margin-left: 10px;
+        }
+  
+        header nav ul li {
+          margin: 5px;
+        }
+  
+        header nav ul li a {
+          font-size: 12px;
+          width: 70px;
+        }
+
+        .container-section {
+            margin-top:60px;
+         }
+    }
 
     /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
     @media screen and (max-width: 420px) {
