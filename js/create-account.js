@@ -24,6 +24,14 @@
                         }
                                   
 
+                        var closeBtnEl = document.getElementById('closeOut-btn');
+                        closeBtnEl.addEventListener('click', closeCreateAccountPopUp);
+
+                        function closeCreateAccountPopUp() {
+                            createAccountDivEl.classList.add("display-none");
+                        }
+                        
+
 
 
                         // http://devingine.com/post/how-to-make-login-and-registration-form-html-css-and-javascript-with-source-code
