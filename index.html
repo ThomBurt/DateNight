@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Date Night</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/x-icon" href="images\Date Night-C - favicon.png">
+    <link rel="stylesheet" href="css\login.css">
+    <link rel="icon" type="image/x-icon" href="images\Date_Night-C2-removebg-preview.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +24,7 @@
                 <li><a href="#">Learn</a></li>
                 <li><a href="#">Support</a></li>
                 <li><a href="#">Download</a></li>
-                <li><button class="login">Log in</button></li>
+                <li><button id="loginBtn" class="login">Log in</button></li>
             </ul>
         </nav>
     </header>
@@ -39,11 +40,40 @@
         </div>
     </section>
 
+
+    <!--MODAL FOR LOGIN     https://www.gitto.tech/posts/animated-modal-based-login-form-using-html-css-and-javascript/-->
+    <div class="center">
+      </div>
+      <div class="popup-overlay"></div>
+      <div class="popup">
+        <div class="popup-close" onclick="closeLoginForm()">×</div>
+        <div class="form">
+          <div class="avatar">
+            <img src="images\Date Night-C2.jpg" alt="">
+          </div>
+          <div class="header">
+            Welcome Back!
+          </div>
+          <div class="element">
+            <label for="username">Username</label>
+            <input type="text" id="username">
+          </div>
+          <div class="element">
+            <label for="password">Password</label>
+            <input type="password" id="password">
+          </div>
+          <div class="element">
+            <button>Login</button>
+          </div>
+        </div>
+      </div>
+
+
 <!-- <footer>
     <h3>Date Night - Why let the singles have all the swiping fun?</h3>
 </footer>
      -->
-    
+     <script src="js\login.js"></script>
 </body>
 </html>
 
