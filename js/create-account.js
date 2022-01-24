@@ -12,10 +12,8 @@
 
 
 
+                        //create account
                         var createAccountDivEl = document.getElementById('create-account-div');
-
-
-
 
                         var createAccountEl = document.getElementById('create-account-btn');
                         createAccountEl.addEventListener('click', createAccountButton);
