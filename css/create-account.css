@@ -1,21 +1,18 @@
                             
                             @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-                            * {
-                                box-sizing: border-box;
+                            .display-none {
+                                display: none;
                             }
                             
-                            body {
-                                background: #f6f5f7;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                flex-direction: column;
+                            .signup-createaccount-body {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
                                 font-family: 'Montserrat', sans-serif;
-                                height: 100vh;
-                                margin: -20px 0 50px;
                             }
                             
-                            h1 {
+                            .create-h1 {
                                 font-weight: bold;
                                 margin: 0;
                             }
@@ -24,25 +21,25 @@
                                 text-align: center;
                             }
                             
-                            p {
+                            .create-p {
                                 font-size: 14px;
                                 line-height: 20px;
                                 letter-spacing: 0.5px;
                                 margin: 20px 0 30px;
                             }
                             
-                            span {
+                            .create-span {
                                 font-size: 12px;
                             }
                             
-                            a {
+                            .create-a {
                                 color: #333;
                                 font-size: 14px;
                                 text-decoration: none;
                                 margin: 15px 0;
                             }
                             
-                            button {
+                            .create-button {
                                 border-radius: 20px;
                                 border: 1px solid #ff4b2b;
                                 background-color: #ff4b2b;
@@ -55,20 +52,20 @@
                                 transition: transform 80ms ease-in;
                             }
                             
-                            button:active {
+                            .create-button:active {
                                 transform: scale(0.95);
                             }
                             
-                            button:focus {
+                            .create-button:focus {
                                 outline: none;
                             }
                             
-                            button.devingine {
+                            .create-button.devingine {
                                 background-color: transparent;
                                 border-color: #fff;
                             }
                             
-                            form {
+                            .create-form {
                                 background-color: #fff;
                                 display: flex;
                                 align-items: center;
@@ -79,7 +76,7 @@
                                 text-align: center;
                             }
                             
-                            input {
+                            .create-input {
                                 background-color: #f3f3f3;
                                 border: none;
                                 padding: 12px 25px;
@@ -88,7 +85,7 @@
                                 border-radius: 30px;
                             }
                             
-                            input:focus-visible {
+                            .create-input:focus-visible {
                                 outline: none;
                                 border: 1px solid #ff4b2b;
                             }

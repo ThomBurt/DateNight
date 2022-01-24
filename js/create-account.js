@@ -9,4 +9,23 @@
                         signInButton.addEventListener('click', () => {
                             container.classList.remove("right-panel-active");
                         });
+
+
+
+                        var createAccountDivEl = document.getElementById('create-account-div');
+
+
+
+
+                        var createAccountEl = document.getElementById('create-account-btn');
+                        createAccountEl.addEventListener('click', createAccountButton);
+
+                        function createAccountButton() {
+                            createAccountDivEl.classList.remove("display-none");
+
+                        }
                                   
+
+
+
+                        // http://devingine.com/post/how-to-make-login-and-registration-form-html-css-and-javascript-with-source-code
