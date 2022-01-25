@@ -72,3 +72,7 @@ header nav ul li a:hover {
     transform: scale(1.1); 
     transition: all .2s ease-in-out; 
 }
+
+.container {
+
+}
