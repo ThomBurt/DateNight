@@ -19,19 +19,31 @@ body {
 header {
     width: 100%;
     padding: 10px;
-    background-color: deeppink;
-    color: white;
+    background-color: white;
+    color: black;
     font-family: 'Righteous', cursive;
     font-size: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    position: sticky; 
+    top: 0;
+    z-index: 1;
+}
+header a {
+    text-align: left;
+}
+header nav {
+    top: 0;
+    text-align: right;
+    margin-right: 20px;
+    font-size: lighter;
 }
 header nav ul {
+    margin: 10px;
     list-style: none;
-    text-align: right;
-    margin-right: 70px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 header nav ul li {
@@ -41,9 +53,8 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: black;
     font-size: 20px;
-    width: 100px;
     display: block;
     text-align: center;
 }
@@ -59,8 +70,8 @@ header nav ul li a:hover {
 .login {
     padding: 10px 20px;
     font-size: 20px;
-    color: #f7506a;
-    background-color: white;
+    color: white;
+    background-color: #f75169;
     border-radius: 5px;
     border: none;
     margin-left: 15px;
@@ -73,6 +84,6 @@ header nav ul li a:hover {
     transition: all .2s ease-in-out; 
 }
 
-.container {
-
+.container-skygarden {
+    background-color: pink;
 }
