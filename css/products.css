@@ -23,16 +23,17 @@ header {
     color: black;
     font-family: 'Righteous', cursive;
     font-size: 30px;
+    position: sticky; 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    position: sticky; 
     top: 0;
+    bottom: 0;
     z-index: 1;
 }
 header a {
     text-align: left;
+    margin-left: 20px;
 }
 header nav {
     top: 0;
@@ -86,4 +87,10 @@ header nav ul li a:hover {
 
 .container-skygarden {
     background-color: pink;
+}
+
+
+.swing-in-bottom-fwd {
+	-webkit-animation: swing-in-bottom-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+	        animation: swing-in-bottom-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
 }
