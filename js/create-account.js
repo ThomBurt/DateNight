@@ -22,10 +22,6 @@
 
                         }
                                   
-
-                        var closeBtnEl = document.getElementById('closeOut-btn');
-                        closeBtnEl.addEventListener('click', closeCreateAccountPopUp);
-
                         function closeCreateAccountPopUp() {
                             createAccountDivEl.classList.add("display-none");
                             console.log('clicked');
