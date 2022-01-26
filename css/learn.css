@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.test {
+    background-color: red;
+}
+
+.welcome-txt {
+    font-size: 20px;
+}
+
+.welcome-box {
+    padding: 20px;
+    width: 50%;
+    background-color: aqua;
+}
