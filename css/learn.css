@@ -6,12 +6,18 @@ body {
     background-color: red;
 }
 
-.welcome-txt {
-    font-size: 20px;
+.box-1 {
+    background-image: linear-gradient(to top right, #f75169, #ffc0cb);
 }
 
-.welcome-box {
-    padding: 20px;
-    width: 50%;
-    background-color: aqua;
+.hero-img {
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 0 20px;
 }
+
